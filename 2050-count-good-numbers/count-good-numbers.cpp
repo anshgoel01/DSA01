@@ -12,7 +12,7 @@ long long pow(long long x, long long n){
 
             x = (x * x) % MOD;
 
-            n >>= 1;
+            n = n/2;
         }
         return ans;
     }
