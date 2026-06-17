@@ -63,7 +63,7 @@ public:
     }
     long long subArrayRanges(vector<int>& nums) {
         int n = nums.size();
-        long long ans = 0;
+        // long long ans = 0;
 
 
         vector<int> nge = findNGE(nums);
@@ -93,6 +93,6 @@ public:
             minSUM += 1LL * nums[i] * minleft * minright;
         }
 
-        return ans = maxSUM - minSUM;
+        return maxSUM - minSUM;
     }
 };
