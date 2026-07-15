@@ -11,6 +11,6 @@ public:
             sumEven += i;
         }
 
-        return __gcd(sumOdd,sumEven);
+        return gcd(sumOdd,sumEven);
     }
 };
