@@ -1,7 +1,7 @@
 class Solution {
 public:
     void backtrack(int index, vector<int>& nums, vector<vector<int>>& ans, vector<int>& ds){
-
+sort(nums.begin(), nums.end());
                     ans.push_back(ds);
 
         for(int i = index; i < nums.size(); i++){
